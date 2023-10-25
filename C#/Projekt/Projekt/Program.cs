@@ -36,6 +36,7 @@ namespace Projekt
             {
                 Console.WriteLine("Csak megadott műveleti jeleket adhatsz meg!");
             }
+            Console.ReadKey();
         }
     }
 }
