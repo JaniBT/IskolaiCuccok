@@ -6,12 +6,12 @@ namespace Projekt
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Adj meg egy számot: ");
+            Console.Write("Adj meg egy számot: ");
             int szam = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Add meg, hogy milyen műveletet akarsz elvégezni (/*-+): ");
-            string muvelet = Console.ReadLine();
-            Console.WriteLine("Adj meg egy másik számot: ");
+            Console.Write("Adj meg egy másik számot: ");
             int szamketto = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Add meg, hogy milyen műveletet akarsz elvégezni (/*-+): ");
+            string muvelet = Console.ReadLine();
             if (muvelet == "/")
             {
                 int oszt = szam / szamketto;
