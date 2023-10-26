@@ -11,26 +11,28 @@ namespace Projekt
             Console.Write("Adj meg egy másik számot: ");
             int szamketto = Convert.ToInt32(Console.ReadLine());
             Console.Write("Add meg, hogy milyen műveletet akarsz elvégezni (/*-+): ");
-            string muvelet = Console.ReadLine();
+            string muvelet = Console.ReadLine()!;
+
+            Console.WriteLine(muvelet);
+
             if (muvelet == "/")
             {
-                int oszt = szam / szamketto;
-                Console.WriteLine("Az eredmény: ", oszt);
+                Console.WriteLine("Az eredmény: ", szam / szamketto);
             }
             else if (muvelet == "*")
             {
-                int szoroz = szam * szamketto;
-                Console.WriteLine("Az eredmény: ", szoroz);
+                
+                Console.WriteLine("Az eredmény: ", szam * szamketto);
             }
             else if (muvelet == "-")
             {
-                int kivon = szam - szamketto;
-                Console.WriteLine("Az eredmény: ", kivon);
+                
+                Console.WriteLine("Az eredmény: ", szam - szamketto);
             }
             else if (muvelet == "+")
             {
-                int osszead = szam + szamketto;
-                Console.WriteLine("Az eredmény: ", osszead);
+                
+                Console.WriteLine("Az eredmény: ", szam + szamketto);
             }
             else
             {
