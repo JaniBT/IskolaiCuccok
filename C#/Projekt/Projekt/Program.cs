@@ -13,8 +13,6 @@ namespace Projekt
             Console.Write("Add meg, hogy milyen műveletet akarsz elvégezni (/*-+): ");
             string muvelet = Console.ReadLine()!;
 
-            Console.WriteLine(muvelet);
-
             if (muvelet == "/")
             {
                 Console.WriteLine("Az eredmény: ", szam / szamketto);
