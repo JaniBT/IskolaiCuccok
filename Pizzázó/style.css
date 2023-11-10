@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #fff;
+    color: #000;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+#kep{
+    width: 200px;
+    margin: 0;
+}
+
+.container{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #354656;
+    color: #fff;
+}
+
+#jatekaink{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 10px;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+#focim{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 20px;
+    font-size: 100px;
+    padding-bottom: 25px;
+}
+
+img{
+    width: 200px;
+    height: 140px;
+}
+
+#alsoresz{
+    padding-top: 50px;
+}
