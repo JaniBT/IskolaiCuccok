@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Mario Pizza - Pizzafajták</title>
 </head>
 <body>
@@ -37,8 +38,14 @@
             <h2 id="focim">Pizzáink</h2>
         </div>
     </div>
+    <label for="elemValaszto">Válassz egy elemet:</label>
+    <select id="elemValaszto" onchange="megjelenitKod()">
+        <option value="1">Elem 1</option>
+        <option value="2">Elem 2</option>
+        <option value="3">Elem 3</option>
+    </select>
     <div class="row">
-        <div class="col-sm-4">
+        <div id="kodMegjelenito" class="col-sm-4">
             Oszlop 1
         </div>
         <div class="col-sm-4">
