@@ -10,8 +10,11 @@
     <script src="script.js"></script>
 </head>
 <body>
+    <div id="loading-screen">
+        <div id="loading-spinner"></div>
+    </div>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">Mario Pizza - Ahol az étel mellett játszani is lehet</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +28,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="sutemenyek.html">Sütemények</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="frissitok.html">Frissítők</a>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle-no-caret" href="frissitok.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Frissítők</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#arlista">Árlista</a>
+                    </div>
                 </li>
             </ul>
         </div>

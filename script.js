@@ -1,4 +1,3 @@
-// Amikor az ablak görgetése megváltozik, ellenőrizzük, hogy megjelenítjük-e a gombot
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -15,4 +14,8 @@ function scrollToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-    
+
+document.addEventListener("DOMContentLoaded", function () {
+    var loadingScreen = document.getElementById("loading-screen");
+    loadingScreen.style.display = "none";
+});
