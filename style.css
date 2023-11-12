@@ -7,6 +7,12 @@ body{
     color: #000;
 }
 
+@media (min-width: 992px) {
+    .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+    }
+}
+
 header {
     background-color: rgba(211, 211, 211, 0.2);
 }
