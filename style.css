@@ -115,3 +115,22 @@ img:hover {
 .custom-margin{
     padding-bottom: 40px;
 }
+
+#scrollBtn {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+#scrollBtn:hover {
+    background-color: #0056b3;
+}
