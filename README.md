@@ -22,13 +22,13 @@ Ez a weboldal a Mario Pizza nevű pizzázó számára készült. A teljes webold
 
     Ismerd meg változatos étlapunkat, amely tartalmazza a legfinomabb süteményeinket.
 
-    ![Sütemények Kép](link_a_rendeles_kep_hez.jpg)
+    ![Sütemények Kép](assets/sutemenyek.png)
 
 4. ### Frissítő Italok
 
    Ismerd meg változatos itallapunkat, amely tartalmazza a legfinomabb és legfrissítőbb italainkat.
 
-   ![Frissítő Kép](link_a_rendelés_kep_hez.jpg)
+   ![Frissítő Kép](assets/frisstiokital.png)
 
 ## Technológia
 
