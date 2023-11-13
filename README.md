@@ -16,7 +16,7 @@ Ez a weboldal a Mario Pizza nevű pizzázó számára készült. A teljes webold
 
     Ismerd meg változatos étlapunkat, amely tartalmazza a legfinomabb pizzáinkat.
 
-    ![Pizzafajták Kép](link_az_etlap_kep_hez.jpg)
+    ![Pizzafajták Kép](assets/pizzafajtaink.png)
 
 3. ### Sütemények
 
