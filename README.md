@@ -10,7 +10,7 @@ Ez a weboldal a Mario Pizza nevű pizzázó számára készült. A teljes webold
 
     Üdvözöllek a Mario Pizza weboldalán! Frissítsd fel az ízlelőbimbóidat pizzáink fantasztikus választékával és különleges ajánlatainkkal.
 
-    ![Pizza kép](link_a_pizza_kep_hez.jpg)
+    ![Pizza kép](/assets/Képernyőkép2023-11-13083834.png)
 
 2. ### Pizzafajták
 
