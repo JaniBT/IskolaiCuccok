@@ -41,6 +41,7 @@ A weboldal készítése során a következő technológiákat használtam:
 ## Weboldal Link
 
 A Mario Pizza weboldal elérhető [itt](https://janibt.github.io/Pizzazo-feladat/).
+
 Vagy QR Code: ![Kép](assets/pizzazo-qrcode.png)
 
 Jó étvágyat kívánunk!
